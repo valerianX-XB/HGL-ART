@@ -1,0 +1,7 @@
+zipcode,total_visual_buildings,buildings_with_estimated_data,percentage_enriched,source_used,confidence_level,reason_for_missing_coverage
+10011,924,924,100.0,OpenStreetMap building footprints + corrected aggregate research package,Low-Medium,Visual and enriched layers use same public footprint set; missing buildings reflect OSM/source limits.
+10010,110,110,100.0,OpenStreetMap building footprints + corrected aggregate research package,Low-Medium,Visual and enriched layers use same public footprint set; missing buildings reflect OSM/source limits.
+10003,1656,1656,100.0,OpenStreetMap building footprints + corrected aggregate research package,Low-Medium,Visual and enriched layers use same public footprint set; missing buildings reflect OSM/source limits.
+10014,1126,1126,100.0,OpenStreetMap building footprints + corrected aggregate research package,Low-Medium,Visual and enriched layers use same public footprint set; missing buildings reflect OSM/source limits.
+10012,1260,1260,100.0,OpenStreetMap building footprints + corrected aggregate research package,Low-Medium,Visual and enriched layers use same public footprint set; missing buildings reflect OSM/source limits.
+10013,1111,1111,100.0,OpenStreetMap building footprints + corrected aggregate research package,Low-Medium,Visual and enriched layers use same public footprint set; missing buildings reflect OSM/source limits.

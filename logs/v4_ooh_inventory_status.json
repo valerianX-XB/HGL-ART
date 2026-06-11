@@ -1,0 +1,38 @@
+{
+  "old_count": 245,
+  "new_count": 875,
+  "vendors": {
+    "LinkNYC / Intersection": 555,
+    "OUTFRONT / MTA": 1,
+    "JCDecaux": 7,
+    "OUTFRONT / LinkNYC": 1,
+    "Angel Media": 1,
+    "Unknown / OSM advertising feature": 9,
+    "JCDecaux / NYC street furniture network": 248,
+    "MTA / OUTFRONT or station media vendor": 53
+  },
+  "types": {
+    "LinkNYC": 556,
+    "Subway / MTA": 54,
+    "Bus shelters": 255,
+    "Wallscapes": 1,
+    "Candidate walls": 9
+  },
+  "statuses": {
+    "Network bookable": 803,
+    "Potentially bookable": 61,
+    "Candidate to verify": 11
+  },
+  "zips": {
+    "buffer/unknown": 843,
+    "10003/10010": 1,
+    "10003": 5,
+    "10013": 6,
+    "10011": 5,
+    "10010": 4,
+    "10014": 7,
+    "10014/10012": 1,
+    "10012": 2,
+    "10014/10011": 1
+  }
+}

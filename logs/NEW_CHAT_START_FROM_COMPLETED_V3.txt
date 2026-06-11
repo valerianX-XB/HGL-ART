@@ -1,0 +1,24 @@
+HERMES_NEW_CHAT_START_FROM_COMPLETED_V3
+
+This is a completed v3 session, not a restart from scratch.
+
+Before answering, read these files:
+- /home/valerian/hgl-art-3d-market-map-v3-filters-buildings-ooh-under5/logs/V3_FINAL_SESSION_SUMMARY.md
+- /home/valerian/hgl-art-3d-market-map-v3-filters-buildings-ooh-under5/logs/v3_final_session_state.json
+- /home/valerian/hgl-art-3d-market-map-v3-filters-buildings-ooh-under5/logs/final_session_git_status.log
+- /home/valerian/hgl-art-3d-market-map-v3-filters-buildings-ooh-under5/logs/final_session_diffstat.log
+- /home/valerian/hgl-art-3d-market-map-v3-filters-buildings-ooh-under5/docs/v3_acceptance_qa_report.md if it exists
+
+Use current repo:
+/home/valerian/hgl-art-3d-market-map-v3-filters-buildings-ooh-under5
+
+Do not redo previous work unless I explicitly ask.
+Do not restore backups.
+Do not create a new repo.
+Do not print full diffs, full logs, code, CSS, TSX, JSON, CSV, or GeoJSON in chat.
+Continue only from my next instruction.
+Maintain corrected HGL positioning:
+English: HGL ART is a multilingual early childhood education / preschool-style school integrating English, Mandarin Chinese, Spanish, and art-based education.
+Chinese: HGL ART 是一家融合英文、中文、西班牙文和艺术教育的多语言幼儿园 / 早期儿童教育学校。
+Maintain public-safety caveats: aggregate public data only; no individual child/parent/caregiver/household targeting; building/street values are modeled estimates; OOH availability/pricing/impressions require vendor confirmation; HGL license/address/curriculum claims require client confirmation.
+Use low-output mode and save details to logs/.

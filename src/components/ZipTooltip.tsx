@@ -1,0 +1,12 @@
+import { formatValue } from '../utils/format';
+import BuildingTooltip from './BuildingTooltip';
+import OohAssetTooltip from './OohAssetTooltip';
+function clamp(n:number,min:number,max:number){return Math.max(min,Math.min(max,n));}
+export default function ZipTooltip({info}: {info:any}) {
+ if(!info?.object) return null;
+ const p=info.object.properties||{};
+ const left=clamp((info.x||0)+12,12,Math.max(12,window.innerWidth-350));
+ const top=clamp((info.y||0)+12,12,Math.max(12,window.innerHeight-240));
+ const blockGroup = p.under5_official_bg !== undefined && !p.street_name && !p.address_or_label;
+ return <div className="tooltip" style={{left, top}}>{p.ooh_asset_id?<OohAssetTooltip p={p}/>:p.anchor_id?<><b>{p.anchor_name}</b><br/>Category: {p.anchor_category}<br/>Address: {p.address_or_intersection || 'Not specified'}<br/>Relevance: {p.relevance_to_hgl}</>:p.site_id?<><b>{p.site_name}</b><br/>Type: {p.site_type}<br/>Address: {p.address || 'Not specified'}<br/>Confidence: {p.confidence_level}</>:p.competitor_id?<><b>{p.competitor_name}</b><br/>Type: {p.competitor_type}<br/>Address: {p.address || 'Not specified'}<br/>Positioning: {p.language_positioning_if_known || p.art_or_specialty_positioning_if_known || 'Not specified'}<br/>Confidence: {p.confidence_level}</>:p.residential_capacity_units!==undefined&&p.address_or_label?<BuildingTooltip p={p}/>:p.street_name?<><b>{p.street_name}</b><br/>Under-5 Capacity Signal: {formatValue(p.under5_capacity_signal,'score')}<br/>Family Anchor Density: {formatValue(p.family_anchor_density_score,'score')}<br/>OOH Asset Density: {formatValue(p.ooh_asset_density,'score')}<br/>HGL Street Opportunity Score: {formatValue(p.hgl_street_opportunity_score,'score')}</>:blockGroup?<><b>{p.display_label||p.geoid}</b><br/>Official Under-5 Count: {formatValue(p.under5_official_bg)}<br/>Official Under-5 Share: {formatValue(p.official_under5_share,'percent')}<br/>Population: {formatValue(p.official_population)}<br/>Households: {formatValue(p.official_households)}</>:<><b>{p.zcta_label||p.geoid||p.grid_id||p.zipcode} {p.neighborhood_label||''}</b><br/>Official Under-5 Count: {formatValue(p.under5)}<br/>Under-5 Share: {formatValue(p.under5_pct||p.under5_share,'percent')}<br/>Median Household Income: {formatValue(p.median_household_income||p.median_income_signal,'currency')}<br/>HGL Score: {formatValue(p.hgl_opportunity_score||p.hgl_micro_market_score,'score')}</>}</div>
+}

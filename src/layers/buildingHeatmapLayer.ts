@@ -1,0 +1,2 @@
+import { HeatmapLayer } from '@deck.gl/aggregation-layers';
+export function createBuildingHeatmapLayer(data:any, metricKey:string, visible:boolean){ if(!visible) return null; return new HeatmapLayer({id:'building-estimate-heatmap', data:(data?.features||[]), radiusPixels:55, intensity:1.0, getPosition:(f:any)=>f.properties.centroid, getWeight:(f:any)=>Number(f.properties?.[metricKey]||0)} as any); }

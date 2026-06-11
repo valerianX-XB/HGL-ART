@@ -1,0 +1,14 @@
+{
+  "schools": 164,
+  "competitors": 43,
+  "school_types": {
+    "School": 132,
+    "Kindergarten": 23,
+    "Childcare": 9
+  },
+  "competitor_types": {
+    "School / early education provider": 11,
+    "Kindergarten": 23,
+    "Childcare": 9
+  }
+}
