@@ -1,0 +1,174 @@
+{
+  "canonical_dataset": "public/data/canonical_street_capacity_signal.geojson",
+  "version": "v5.4.2",
+  "domains": [
+    {
+      "metric_key": "hgl_street_opportunity_score",
+      "min": 2.44,
+      "max": 9.34,
+      "p5": 3.16,
+      "p95": 8.44,
+      "median": 6.25,
+      "domain_used": [
+        3.16,
+        8.44
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "street_under5_capacity_signal",
+      "min": 0.466,
+      "max": 28.631,
+      "p5": 0.6819000000000001,
+      "p95": 17.793149999999986,
+      "median": 1.6560000000000001,
+      "domain_used": [
+        0.6819000000000001,
+        17.793149999999986
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "under5_capacity_signal",
+      "min": 0.466,
+      "max": 28.631,
+      "p5": 0.6819000000000001,
+      "p95": 17.793149999999986,
+      "median": 1.6560000000000001,
+      "domain_used": [
+        0.6819000000000001,
+        17.793149999999986
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "street_preschool_age_demand_signal",
+      "min": 0.466,
+      "max": 28.631,
+      "p5": 0.6819000000000001,
+      "p95": 17.793149999999986,
+      "median": 1.6560000000000001,
+      "domain_used": [
+        0.6819000000000001,
+        17.793149999999986
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "preschool_age_capacity_signal",
+      "min": 0.466,
+      "max": 28.631,
+      "p5": 0.6819000000000001,
+      "p95": 17.793149999999986,
+      "median": 1.6560000000000001,
+      "domain_used": [
+        0.6819000000000001,
+        17.793149999999986
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "residential_capacity_nearby",
+      "min": 0.0,
+      "max": 156.0,
+      "p5": 0.0,
+      "p95": 104.0,
+      "median": 19.0,
+      "domain_used": [
+        0.0,
+        104.0
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "income_signal",
+      "min": 7.62,
+      "max": 9.8,
+      "p5": 7.62,
+      "p95": 9.8,
+      "median": 8.57,
+      "domain_used": [
+        7.62,
+        9.8
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "family_anchor_density",
+      "min": 0.0,
+      "max": 10.0,
+      "p5": 0.0,
+      "p95": 10.0,
+      "median": 2.375,
+      "domain_used": [
+        0.0,
+        10.0
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "school_preschool_anchor_density",
+      "min": 0.0,
+      "max": 4.0,
+      "p5": 0.0,
+      "p95": 2.0,
+      "median": 0.4,
+      "domain_used": [
+        0.0,
+        2.0
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "competitor_density",
+      "min": 0.0,
+      "max": 1.6,
+      "p5": 0.0,
+      "p95": 0.8,
+      "median": 0.0,
+      "domain_used": [
+        0.0,
+        0.8
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "ooh_asset_density",
+      "min": 0.0,
+      "max": 16.0,
+      "p5": 0.0,
+      "p95": 9.0,
+      "median": 1.0,
+      "domain_used": [
+        0.0,
+        9.0
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    },
+    {
+      "metric_key": "transit_access_signal",
+      "min": 1.0,
+      "max": 3.0,
+      "p5": 1.0,
+      "p95": 3.0,
+      "median": 1.0,
+      "domain_used": [
+        1.0,
+        3.0
+      ],
+      "transform": "linear",
+      "notes": "Computed once from full canonical street dataset; not recomputed from viewport, overlay visibility, or filtered overlays."
+    }
+  ]
+}
